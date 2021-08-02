@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-08-02T17:56:25.635Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="zRDkvq1MwJX4F9VLbWeQ" version="14.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-02T18:05:22.393Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="t9mBcS9H8lu3qWjYR5av" version="14.8.5" type="github">
   <diagram id="e-slurHS_HkrqCFKRkbQ" name="Page-1">
-    <mxGraphModel dx="3327" dy="2036" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6394" dy="3626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -618,6 +618,9 @@
         <mxCell id="PXFJDz6Darnhv6XZ_Lc4-222" value="프로젝트 선물 구성&lt;br&gt;/project/${projectNo}/projectMainGift" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="-150" y="-130" width="190" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="PXFJDz6Darnhv6XZ_Lc4-274" value="프로젝트 번호" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.632;entryY=0.998;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="PXFJDz6Darnhv6XZ_Lc4-223" target="PXFJDz6Darnhv6XZ_Lc4-273">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="PXFJDz6Darnhv6XZ_Lc4-223" value="프로젝트 스토리&lt;br&gt;/project/${projectNo}/projectMainStory" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="490" y="-130" width="190" height="60" as="geometry" />
         </mxCell>
@@ -690,13 +693,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="PXFJDz6Darnhv6XZ_Lc4-261" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.314;exitY=1.018;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="PXFJDz6Darnhv6XZ_Lc4-250" target="PXFJDz6Darnhv6XZ_Lc4-222">
+        <mxCell id="PXFJDz6Darnhv6XZ_Lc4-261" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" target="PXFJDz6Darnhv6XZ_Lc4-222">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="192.5" y="-240" as="sourcePoint" />
+            <mxPoint x="143" y="-259" as="sourcePoint" />
             <mxPoint x="142.5588235294117" y="-140" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="190" y="-230" />
-              <mxPoint x="143" y="-230" />
+              <mxPoint x="143" y="-259" />
               <mxPoint x="143" y="-85" />
             </Array>
           </mxGeometry>
@@ -747,6 +749,17 @@
         </mxCell>
         <mxCell id="PXFJDz6Darnhv6XZ_Lc4-266" value="프로젝트 아이템 추가&lt;br&gt;/projectMainGiftInsert" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="-20" y="-350" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PXFJDz6Darnhv6XZ_Lc4-275" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.189;entryY=-0.022;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="PXFJDz6Darnhv6XZ_Lc4-273" target="PXFJDz6Darnhv6XZ_Lc4-223">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="526" y="-170" />
+              <mxPoint x="526" y="-170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PXFJDz6Darnhv6XZ_Lc4-273" value="프로젝트 스토리 추가&lt;br&gt;/project/${projectNo}/projectMainStory" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="490" y="-250" width="150" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
