@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-03T01:22:49.233Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="k_BvywVI3C1i_ItBQ2Ef" version="14.9.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-03T01:43:18.495Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="WB0qptpmiQD6XmFDxE0I" version="14.9.3" type="github">
   <diagram id="e-slurHS_HkrqCFKRkbQ" name="Page-1">
     <mxGraphModel dx="4154" dy="2103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -80,6 +80,22 @@
             <Array as="points">
               <mxPoint x="360" y="585" />
               <mxPoint x="360" y="649" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J1kCMkDEv_oAryA-KCVJ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="PXFJDz6Darnhv6XZ_Lc4-2" target="J1kCMkDEv_oAryA-KCVJ-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-180" y="585" />
+              <mxPoint x="-180" y="55" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J1kCMkDEv_oAryA-KCVJ-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PXFJDz6Darnhv6XZ_Lc4-2" target="J1kCMkDEv_oAryA-KCVJ-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-180" y="585" />
+              <mxPoint x="-180" y="180" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -490,6 +506,18 @@
               <mxPoint x="-1210" y="17" />
               <mxPoint x="-1210" y="70" />
             </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J1kCMkDEv_oAryA-KCVJ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="PXFJDz6Darnhv6XZ_Lc4-176" target="J1kCMkDEv_oAryA-KCVJ-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1140" y="-55" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J1kCMkDEv_oAryA-KCVJ-21" value="point.service" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="J1kCMkDEv_oAryA-KCVJ-15">
+          <mxGeometry x="-0.0034" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -1066,7 +1094,8 @@
         <mxCell id="J1kCMkDEv_oAryA-KCVJ-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="J1kCMkDEv_oAryA-KCVJ-8" target="PXFJDz6Darnhv6XZ_Lc4-176">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-1410" y="5" />
+              <mxPoint x="-1370" y="80" />
+              <mxPoint x="-1370" y="5" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1078,6 +1107,41 @@
         </mxCell>
         <mxCell id="J1kCMkDEv_oAryA-KCVJ-10" value="문의하기&amp;nbsp;&lt;br&gt;/member/{projectNo}/msgWrite" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="-1360" y="70" width="177" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J1kCMkDEv_oAryA-KCVJ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="J1kCMkDEv_oAryA-KCVJ-14" target="PXFJDz6Darnhv6XZ_Lc4-176">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J1kCMkDEv_oAryA-KCVJ-14" value="후원하기(처리)&lt;br&gt;/projectBoardController" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-1380" y="-70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J1kCMkDEv_oAryA-KCVJ-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="J1kCMkDEv_oAryA-KCVJ-22" target="J1kCMkDEv_oAryA-KCVJ-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J1kCMkDEv_oAryA-KCVJ-22" value="프로젝트 제목 검색(처리)&lt;br&gt;/project/projectSearchAll" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-350" y="40" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J1kCMkDEv_oAryA-KCVJ-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="J1kCMkDEv_oAryA-KCVJ-24" target="J1kCMkDEv_oAryA-KCVJ-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J1kCMkDEv_oAryA-KCVJ-24" value="프로젝트 제목 검색(처리)&lt;br&gt;/projectCategorySearchAll" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-350" y="150" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J1kCMkDEv_oAryA-KCVJ-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.879;entryY=0.999;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="J1kCMkDEv_oAryA-KCVJ-26" target="PXFJDz6Darnhv6XZ_Lc4-176">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-470" y="180" />
+              <mxPoint x="-1060" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J1kCMkDEv_oAryA-KCVJ-26" value="검색된 프로젝트 확인&lt;br&gt;/project/projectSearch" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-540" y="100" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J1kCMkDEv_oAryA-KCVJ-30" value="결제 페이지&lt;br&gt;/pay/confirm" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="400" y="950" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J1kCMkDEv_oAryA-KCVJ-31" value="결제" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="405" y="1040" width="140" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
