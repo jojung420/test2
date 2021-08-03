@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-03T01:43:18.495Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="WB0qptpmiQD6XmFDxE0I" version="14.9.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-03T01:43:39.457Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="LMdQPB_Zqd6CSm1FHcgP" version="14.9.3" type="github">
   <diagram id="e-slurHS_HkrqCFKRkbQ" name="Page-1">
     <mxGraphModel dx="4154" dy="2103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1136,12 +1136,6 @@
         </mxCell>
         <mxCell id="J1kCMkDEv_oAryA-KCVJ-26" value="검색된 프로젝트 확인&lt;br&gt;/project/projectSearch" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="-540" y="100" width="140" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="J1kCMkDEv_oAryA-KCVJ-30" value="결제 페이지&lt;br&gt;/pay/confirm" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="400" y="950" width="150" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="J1kCMkDEv_oAryA-KCVJ-31" value="결제" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="405" y="1040" width="140" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
